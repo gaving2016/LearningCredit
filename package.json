@@ -1,0 +1,16 @@
+{
+  "name": "LearningCredit",
+  "version": "1.0.0",
+  "description": "信贷知识学习",
+  "main": "index.js",
+  "repository": "https://github.com/gaving2016/LearningCredit.git",
+  "author": "gaving2016",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.0"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  }
+}
