@@ -6,6 +6,7 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
+  base:'/',
   themeConfig: {
     repo: '',
     smoothScroll: true,
@@ -25,6 +26,7 @@ module.exports = {
         items: [
           { text: '表内业务', link: '/credit/tableInBusiness/' },
           { text: '表外业务', link: '/credit/offBalanceBusiness/' },
+          { text: '中间业务', link: '/credit/middleBusiness/' },
         ]
       },
       {
