@@ -2,6 +2,7 @@ module.exports = {
   title: '信贷学习',
   description: '信贷知识点学习',
   head: [
+    ['link',{rel:'shortcut icon',href:'/imgs/home/credit.jpg'}],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
