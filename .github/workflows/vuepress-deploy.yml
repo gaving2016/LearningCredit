@@ -11,7 +11,7 @@ jobs:
     - name: Build and Deploy
       uses: jenkey2011/vuepress-deploy@master
       env:
-        ACCESS_TOKEN: ${{ secrets.VUEPRESSTOKEN }}
+        ACCESS_TOKEN: ${{ secrets.LEARNINGCRIDIT }}
         TARGET_REPO: gaving2016/LearningCredit
         TARGET_BRANCH: gh-pages
         BUILD_SCRIPT: yarn && yarn build
