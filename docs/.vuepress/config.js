@@ -47,6 +47,7 @@ module.exports = {
           children: [
             'tableInBusiness',
             'offBalanceBusiness',
+            'middleBusiness'
           ]
         }
       ],
